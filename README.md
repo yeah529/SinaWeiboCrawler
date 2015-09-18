@@ -27,11 +27,11 @@ After collecting weibo, I used Naive Bayes algorithm to analyze sentiment of eac
 Final output from the sentiment analysis looks like following:
 
 全球危机继中国A股再次大跌之后月日亚洲欧洲美国股市先后传来大跌声纷纷创下阶段性低点商品市场也哀鸿一片国际油价盘中跌破美元桶铜价继续下挫逼近六年新低
-negative
+<b>negative</b>
 
 全球股市大跌目前美洲非洲地区还未开盘
-negative
+<b>negative</b>
 
 利好大金融华泰证券罗毅表示总量万亿的养老金按照的比例投资股市有望带动万亿资金入市长线资金的入市从历史时期可以看都表明此位置是市场的阶段性底部巨量资金的入市将利好大金融等蓝筹股网页链接
-positive
+<b>positive</b>
 
