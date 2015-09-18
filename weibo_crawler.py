@@ -204,6 +204,10 @@ browser.set_window_size(1125, 550)
 browser.get("http://weibo.com")
 wait = ui.WebDriverWait(browser,10)
 sleep(15)
+
+user = "please input your username"
+psw = "please input your password"
+
 login(user,psw)
 sleep(5)
 print(browser.current_url)
