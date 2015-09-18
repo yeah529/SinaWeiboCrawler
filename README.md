@@ -1,8 +1,8 @@
 # SinaWeiboCrawler
-<b>Introduction<b/><br><br/>
+<b>Introduction</b><br></br>
 This is a simple function to crawl Sina Weibo from your homepage and conduct sentiment analysis by using Naive Bayes. Considering that author usually login from the United States, the page after logging in might be slightly different in China or other countries. Please find the main page (or "首页") and kick off the script.
 
-<b>Functions Introduction<b/>
+<b>Functions Introduction</b>
 
 1. find_username - to find the main username and forward username of that one weibo
 2. find_content - to find main content and forward content of that one weibo
@@ -14,7 +14,7 @@ This is a simple function to crawl Sina Weibo from your homepage and conduct sen
 8. collect_weibo - main function to collect weibo
 9. weibo_crawl - recursive function to crawl weibo from different users' pages
 
-<b>Final Output<b/><br><br/>
+<b>Final Output</b><br></br>
 The results would be saved in weibo_rows like following: [["weibo_users","main_content","main_published_time","forward_weibo_users","forward_content","forward_published_time"]]
 
-Please feel free to contact with me through email if you find any bugs or difficuties to use the script. My email is <b>jasonwangumd@gmail.com<b/>
+Please feel free to contact with me through email if you find any bugs or difficuties to use the script. My email is <b>jasonwangumd@gmail.com</b>
