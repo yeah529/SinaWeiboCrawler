@@ -18,3 +18,20 @@ This is a simple function to crawl Sina Weibo from your homepage and conduct sen
 The results would be saved in weibo_rows like following: [["weibo_users","main_content","main_published_time","forward_weibo_users","forward_content","forward_published_time"]]
 
 Please feel free to contact with me through email if you find any bugs or difficuties to use the script. My email is <b>jasonwangumd@gmail.com</b>
+
+
+#Naive Bayes Sentiment Analysis
+
+After collecting weibo, I used Naive Bayes algorithm to analyze sentiment of each weibo. First, I mannually marked whether that weibo is positive or negative. The main purpose of the sentiment analysis is to use in stock market or financial industry. 
+
+Final output from the sentiment analysis looks like following:
+
+全球危机继中国A股再次大跌之后月日亚洲欧洲美国股市先后传来大跌声纷纷创下阶段性低点商品市场也哀鸿一片国际油价盘中跌破美元桶铜价继续下挫逼近六年新低
+negative
+--------
+全球股市大跌目前美洲非洲地区还未开盘
+negative
+--------
+利好大金融华泰证券罗毅表示总量万亿的养老金按照的比例投资股市有望带动万亿资金入市长线资金的入市从历史时期可以看都表明此位置是市场的阶段性底部巨量资金的入市将利好大金融等蓝筹股网页链接
+positive
+--------
